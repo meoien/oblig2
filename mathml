@@ -1,0 +1,78 @@
+!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>MathML</title>
+		<link rel="stylesheet" href="oblig2.css">
+	</head>
+		<body>
+			<div id="head">
+			<nav>
+				<ul> 
+					<li><a class="home" href="http://ask.hiof.no/~meoien/webutvikling/oblig2/oblig2.html"> Hjem </a></li>
+					<li><a class="footer" href="#"> Om denne siden </a></li>
+					<li><a class="kontakt" href="#"> Kontakt </a></li>
+					<li><a class="hiof" href="https://www.hiof.no/"> HIOF.NO </a></li>
+				</ul> 
+			</nav>
+			<img src="mathml.jpg" alt="numbers">
+			</div>
+			<article class="artikler">
+					<h3> MathML - hva er det? </h3>
+					<p> MathML, Mathematical Markup Language, er en utvidelse i HTML5 som gjør det enklere å vise brukerne  matematiske og vitenskapelige formler og uttrykk uten og måtte ta i bruk bilder på internettet, men også i programmer og systemer. Det gjør at vi kan redigere og skrive uttrykkene direkte inn på siden. Dette gjør at brukeren enklere kan kopiere det matematiske fremfor å lagre et bilde. Ved bruk av mengder med bilder blir nettsiden tyngre, og ytelsen reduseres. MathML støttes ikke av alle browsere enn så lenge, noe som gjør at bruken av dette kan føre til at forelene overskrives av ulempen ved dette.
+					<br> Her ser du noen eksempler på MathML (nødvendig med FireFox for å se de):</p>
+						<math>
+							<msqrt>
+							<mi>x</mi>
+							<mo>+</mo>
+	  						<mi>y</mi>
+							</msqrt>
+						</math>
+						<math>
+							<mrow>
+	  						<mfrac>
+						    	<mn>1</mn>
+						    <msup>
+						    	<mi>x</mi>
+						    <mphantom>
+						    <msup>
+						        <mi>y</mi>
+						        <mi>z</mi>
+						    </msup>
+						   	</mphantom>
+						    </msup>
+						 	</mfrac>
+								<mo>+</mo>
+							<mfrac>
+						    	<mn>1</mn>
+						    <msup>
+						    	<mi>x</mi>
+						    <msup>
+						        <mi>y</mi>
+						        <mi>z</mi>
+						    </msup>
+						    </msup>
+							</mfrac>
+							</mrow>
+						</math>
+						<math xmlns="http://www.w3.org/1998/Math/MathML">
+							<mrow>
+			            	<mi>A</mi>
+			            	<mo>=</mo>
+							<mfenced open="[" close="]">
+							<mtable>
+			                <mtr>
+				                <mtd><mi>x</mi></mtd>
+				                <mtd><mi>y</mi></mtd>
+			                </mtr>
+			                  <mtr>
+			                     <mtd><mi>z</mi></mtd>
+			                     <mtd><mi>w</mi></mtd>
+			                  </mtr>
+			               </mtable>
+			            </mfenced>
+			         </mrow>
+		    	  </math>
+      		</article>
+	</body>
+</html>
